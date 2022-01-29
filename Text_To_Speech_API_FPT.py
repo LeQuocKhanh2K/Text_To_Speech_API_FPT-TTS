@@ -7,7 +7,7 @@ url_fpt = 'https://api.fpt.ai/hmi/tts/v5'
 
 payload = input('Nhập nội dung cần chuyển: ')
 headers = {
-    'api-key': 'Thay thế bằng API key cảu bạn', #API key đăng ký tại https://id.fptcloud.com/auth/realms/FptSmartCloud/login-actions/registration?client_id=fptai_console&tab_id=JNPiE8agIFo
+    'api-key': 'Thay thế bằng API key của bạn', #API key đăng ký tại https://id.fptcloud.com/auth/realms/FptSmartCloud/login-actions/registration?client_id=fptai_console&tab_id=JNPiE8agIFo
     'speed': '0', #Tốc độ đọc
     'voice': 'thuminh'
 }
